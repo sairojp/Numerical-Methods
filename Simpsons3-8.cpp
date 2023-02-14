@@ -17,7 +17,7 @@ int main(){
   }
   h=(b-a)/n;
   sum1 = f(a)+f(b);
-  for(i=0;i<=n-1;i++){
+  for(i=1;i<=n-1;i++){
     if(i%3==0){
       sum3=sum3+f(a+i*h);
     }
