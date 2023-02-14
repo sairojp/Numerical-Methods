@@ -12,7 +12,7 @@ int main(){
   cout<<"Enter the  stripes(n)"<<endl;
   cin>>n;
   if(n%3!=0){
-    cout<<"n is not even"<<endl;
+    cout<<"n is not multiple of 3"<<endl;
     exit(0);
   }
   h=(b-a)/n;
